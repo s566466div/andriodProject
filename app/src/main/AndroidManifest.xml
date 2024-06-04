@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Organs_donation"
+        tools:targetApi="31">
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".item"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register_Page"
+            android:exported="false" />
+        <activity
+            android:name=".ab_negativefrag"
+            android:exported="false" />
+        <activity
+            android:name=".ab_positivefrag"
+            android:exported="false" />
+        <activity
+            android:name=".o_negativefrag"
+            android:exported="false" />
+        <activity
+            android:name=".o_positivefrag"
+            android:exported="false" />
+        <activity
+            android:name=".b_negativefrag"
+            android:exported="false" />
+        <activity
+            android:name=".a_negativefrag"
+            android:exported="false" />
+        <activity
+            android:name=".b_positivefrag"
+            android:exported="false" />
+        <activity
+            android:name=".a_postivefrag"
+            android:exported="false" />
+        <activity
+            android:name=".smallBowelList"
+            android:exported="false" />
+        <activity
+            android:name=".pancreasList"
+            android:exported="false" />
+        <activity
+            android:name=".lungsList"
+            android:exported="false" />
+        <activity
+            android:name=".kidneyList"
+            android:exported="false" />
+        <activity
+            android:name=".heartList"
+            android:exported="false" />
+        <activity
+            android:name=".LiverList"
+            android:exported="false" />
+        <activity
+            android:name=".DonorPage"
+            android:exported="false" />
+        <activity
+            android:name=".BloodDonationPage"
+            android:exported="false" />
+        <activity
+            android:name=".ReceiverHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".DonorView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

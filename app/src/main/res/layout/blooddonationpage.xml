@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/blooddonation"
+    tools:context=".BloodDonationPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Blood Donation"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/aPositive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="A+"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/aNegative"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="A-"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/bPositive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="B+"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/bNegative"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="B-"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#151414"
+                app:strokeColor="#191717">
+
+                <Button
+                    android:id="@+id/abPositive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="AB+"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/abNegative"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="AB-"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/oPositive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="O+"
+
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/oNegative"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="O-"
+                    android:textColor="#151414"
+                    app:strokeColor="#191717"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

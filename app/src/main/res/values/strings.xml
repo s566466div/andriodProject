@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">organs_donation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="userID">Enter the UserID</string>
+    <string name="password">Enter Password</string>
+    <string name="receiver">RECEIVER</string>
+    <string name="logout">Logout</string>
+    <string name="help">HELP?</string>
+    <string name="blood">BLOOD DONATION</string>
+    <string name="donor">Donor</string>
+    <string name="title">Organ Donation</string>
+    <string name="register">REGISTRATION PAGE</string>
+    <string name="name">Enter Full Name</string>
+    <string name="email">Enter EmailID</string>
+    <string name="phnum">Enter Phone Number</string>
+    <string name="address">Enter Address</string>
+    <string name="repassword">Re write the password</string>
+    <string name="blood_types">Blood Types</string>
+</resources>

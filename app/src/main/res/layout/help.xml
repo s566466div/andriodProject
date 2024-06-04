@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Introduction Section -->
+        <TextView
+            android:id="@+id/tvIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Briefly introduce the concept of organ donation and highlight its impact on saving lives."/>
+
+        <!-- Donor Details Section -->
+        <TextView
+            android:id="@+id/tvDonorDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donor Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide information about the donor's details and health conditions of the organs they are donating."/>
+
+        <!-- Receiver Page Section -->
+        <TextView
+            android:id="@+id/tvReceiverPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receiver Page"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display different kinds of organs that receivers can get."/>
+
+        <!-- Blood Donations Section -->
+        <TextView
+            android:id="@+id/tvBloodDonations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Donations"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show different kinds of blood types and information about blood donation."/>
+
+        <!-- Donor Page Button -->
+        <Button
+            android:id="@+id/btnDonorPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Donor Page"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Call to Action Section -->
+        <Button
+            android:id="@+id/btnRegisterNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reciver Page"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+        <Button
+            android:id="@+id/btnblood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood donors Page"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Additional Resources Section -->
+        <TextView
+            android:id="@+id/tvResources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Resources"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offer links to reputable websites, articles, and videos for users who want to learn more about organ donation."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    tools:context=".Register_Page">
+
+    <TextView
+        android:id="@+id/registerTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:height="30sp"
+        android:background="#ED7564"
+        android:gravity="center_horizontal"
+        android:text="@string/register"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp" />
+
+    <EditText
+        android:id="@+id/emailidET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/phnumET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phnum"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/password2ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/repassword"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progessBarR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ED7564"
+        android:backgroundTint="#ED7564"
+        android:text="Register" />
+
+</LinearLayout>
